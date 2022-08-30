@@ -1,4 +1,4 @@
-# TryHackMe: Wreath
+# TryHackMe: Wreath Writeup by ll1a4x
 
 - Room link: https://tryhackme.com/room/wreath  
 - It's free for any non-subcriber who has 7 Day Sreak
