@@ -89,7 +89,7 @@ Visit the website in the browser
 
 ### Root access on 10.200.90.200 (prod-serv)
 
-RCE of MiniServ/1.890
+RCE of MiniServ/1.890 (CVE-2019-15107)
 - Google search the keywords "MiniServ/1.890"
 	- https://github.com/foxsin34/WebMin-1.890-Exploit-unauthorized-RCE
 	- https://medium.com/@foxsin34/webmin-1-890-exploit-unauthorized-rce-cve-2019-15107-23e4d5a9c3b4
