@@ -1,7 +1,12 @@
-# TryHackMe-Wreath Writeup by ll1a4x
+# TryHackMe-Wreath Writeup by Lynden
 
+About Wreath
 - Room link: https://tryhackme.com/room/wreath  
 - It's free for any non-subcriber who has 7 Day Sreak
+
+About this writeup
+- Author: Lynden L.
+- github: github.com/ll1a4x
 
 ----
 
