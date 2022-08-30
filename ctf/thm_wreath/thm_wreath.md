@@ -36,7 +36,7 @@ About showing password hashes and clear-text password in this writeup
 
 Installation and setup  
 - Download the tools
-- Password of extracting tools: WreathNetwork
+- Password of extracting tools:`WreathNetwork`
 - Connecting to VPN
 	- `sudo openvpn ~/Documents/ovpn/{your_THMusername}-wreath.ovpn`
 - Start the wreath network in the room
