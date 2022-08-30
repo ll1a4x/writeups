@@ -8,10 +8,10 @@ About this writeup
 - Author: Lynden L.
 - github: github.com/ll1a4x
 
-Q&A
-- Why does this writeup show password hashes and clear-text password?
-	- This is a fake CTF network and showing the password hashes and clear-text passwords are better for education purpose. In the real security operations, th password hashes and cleart-text passwords should be NEVER shown.
-----
+About showing password hashes and clear-text password in this writeup
+- This is a fake CTF network and showing the password hashes and clear-text passwords are better for education purpose. In the real security operations, th password hashes and cleart-text passwords should be NEVER shown.
+
+---
 
 ## Table of Contents
 - [Setup](#setup)
