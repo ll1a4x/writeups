@@ -6,7 +6,7 @@
 ----
 
 ## Table of Contents
-- [Setup (Task1-4)](#setup-task1-4)
+- [Setup](#setup)
 - [Target1: 10.200.90.200 (prod-serv)](#target1-1020090200-prod-serv)
 	- [Infor Gathering and Enumeration on 10.200.90.200 (prod-serv)](#infor-gathering-and-enumeration-on-1020090200-prod-serv)
 	- [Root access on 10.200.90.200 (prod-serv)](#root-access-on-1020090200-prod-serv)
@@ -24,7 +24,7 @@
 
 ---
 
-## Setup (Task1-4)
+## Setup
 
 Installation and setup  
 - Download the tools
