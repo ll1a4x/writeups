@@ -370,7 +370,6 @@ sudo proxychains curl -u 'thomas:i<3ruby' "http://10.200.90.100/resources/upload
 ### PE on 10.200.90.100 (wreath-pc) - Method 1: PrintSpoofer
 
 - Since we see that the current user `thomas` has the privilege `SeImpersonatePrivilege`, we can try PrintSpoofer PE.
-Transfer PrintSpoofer64.exe to the target
 - Download the binary from the public repo: `wget https://github.com/itm4n/PrintSpoofer/releases/download/v1.0/PrintSpoofer64.exe`
 - Transfer from Kali to the target
 ```
