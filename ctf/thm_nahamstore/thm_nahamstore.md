@@ -552,7 +552,7 @@ SQL Injection 1: GET parameter in the URL
 
 
 SQL Injection 2: Blind SQLi
-- We have to use the SQLMap to get quick feedback from blind sql injection
+- Let's use the SQLMap for the quick blind sql injection
 - First, let's use burpsuite to get the req information by send POST on `http://nahamstore.thm/returns`
 	![15sqli2-1](imgs/15sqli2-1.png)
 
