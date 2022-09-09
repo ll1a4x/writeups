@@ -244,7 +244,7 @@ Open Redirect 2: account config parameter `redirect_url`
 ## CSRF (Task 6)
 
 CSRF 1: verify CSRF protection
-- Login with a registered account with the burpsuite
+- Login with a registered account in the burpsuite
 - Use burpsuite to inject `http://nahamstore.thm/account/settings/password`
 - We can see this link has no CSRF protection
 
