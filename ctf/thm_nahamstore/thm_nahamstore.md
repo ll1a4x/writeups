@@ -457,7 +457,7 @@ RCE 2: command injection in the hidden POST parameter on the pdf-generator
 ## Recon (Task 3)
 
 Update the `/etc/hosts` for the target
-- In the previous section (RCE 2), we get more information about the subdomains on the taret, then let's update the host file
+- In the previous section (RCE 2), we get more information about the subdomains on the target, then let's update the host file
 - `sudo vi /etc/hosts`
 	```
 	10.10.130.105 nahamstore.thm www.nahamstore.thm marketing.nahamstore.thm shop.nahamstore.thm stock.nahamstore.thm nahamstore-2020.nahamstore.thm nahamstore-2020-dev.nahamstore.thm internal-api.nahamstore.thm
