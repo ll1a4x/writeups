@@ -33,9 +33,9 @@ About this writeup
 - TARGET: 10.10.130.105  
 
 `sudo vi /etc/hosts`
-```
-10.10.130.105 nahamstore.thm www.nahamstore.thm
-```
+	```
+	10.10.130.105 nahamstore.thm www.nahamstore.thm
+	```
 
 ![1access](imgs/1access.png)
 
