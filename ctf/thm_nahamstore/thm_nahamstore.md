@@ -490,7 +490,7 @@ Enumerate the web directories of the new subdomain: `nahamstore-2020-dev` by fuz
 
 ## SSRF (Task 9)
 
-SSRF by redirecting to the internal subdomain: `internal-api`
+SSRF: redirecting to visit the internal subdomain: `internal-api`
 - In burpsuite, visit `http://nahamstore.thm/product?id=1`
 	- Click `Check Stock` to interject the request
 	- We can see the POST parameters `product_id` and `server`
