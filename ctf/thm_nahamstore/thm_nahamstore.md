@@ -435,7 +435,7 @@ RCE 2: command injection in the hidden POST parameter on the pdf-generator
 
 			![12rce2-1](imgs/12rce2-1.png)
 
-	- Ge the `session` and `token` cookies
+	- Get the `session` and `token` cookies
 		- Go to `http://nahamstore.thm/` and press F12 -> Storage -> Cookies
 		- `session=76953d72488ff673cfdcf64de60d06b9` 
 		- `token=ee70cc78197876faa9f83fe2e5be3e96`
