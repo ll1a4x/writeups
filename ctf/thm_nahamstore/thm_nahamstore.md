@@ -252,7 +252,7 @@ CSRF 1: verify CSRF protection
 
 
 CSRF 2: CSRF projection parameter
-- Login with a registered account with the burpsuite
+- Login with a registered account in the burpsuite
 - Use burpsuite to inject `http://nahamstore.thm/account/settings/email`
 	```
 	...
