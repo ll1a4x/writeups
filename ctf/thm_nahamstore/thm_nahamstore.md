@@ -463,7 +463,7 @@ Update the `/etc/hosts` for the target
 	10.10.130.105 nahamstore.thm www.nahamstore.thm marketing.nahamstore.thm shop.nahamstore.thm stock.nahamstore.thm nahamstore-2020.nahamstore.thm nahamstore-2020-dev.nahamstore.thm internal-api.nahamstore.thm
 	```
 
-Enumerate the web directories of the new subdomain: `nahamstore-2020-dev` by fuzzing anc curling
+Enumerate the web directories of the new subdomain: `nahamstore-2020-dev` by fuzzing and curling
 - `wfuzz -u http://nahamstore-2020-dev.nahamstore.thm/FUZZ/ -w /usr/share/wfuzz/wordlist/general/common.txt --hc 404 -f wfuzz-nahamstore-2020-dev.log`
 	![13recon_task-fuzz1](imgs/13recon_task-fuzz1.png)
 
