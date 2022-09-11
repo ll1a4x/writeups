@@ -245,7 +245,7 @@ Open Redirect 2: account config parameter `redirect_url`
 
 CSRF 1: verify CSRF protection
 - Login with a registered account in the burpsuite
-- Use burpsuite to inject `http://nahamstore.thm/account/settings/password`
+- Use burpsuite to intercept `http://nahamstore.thm/account/settings/password`
 - We can see this link has no CSRF protection
 
 ![8csrf1](imgs/8csrf1.png)
@@ -253,7 +253,7 @@ CSRF 1: verify CSRF protection
 
 CSRF 2: CSRF projection parameter
 - Login with a registered account in the burpsuite
-- Use burpsuite to inject `http://nahamstore.thm/account/settings/email`
+- Use burpsuite to intercept `http://nahamstore.thm/account/settings/email`
 	```
 	...
 
