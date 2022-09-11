@@ -1,8 +1,8 @@
 # TryHackMe-NahamStore Writeup by Lynden
 About NahamStore
+- In this room you will learn the basics of bug bounty hunting and web application hacking
 - Room link: https://tryhackme.com/room/nahamstore
 - It's a free room.
-- In this room you will learn the basics of bug bounty hunting and web application hacking
 
 About this writeup
 - Author: Lynden L.
