@@ -1,15 +1,13 @@
 # TryHackMe-Wreath Writeup by Lynden
 
 About Wreath
+- Learn how to pivot through a network by compromising a public facing web machine and tunnelling your traffic to access other machines in Wreath's network. (Streak limitation only for non-subscribed users)
 - Room link: https://tryhackme.com/room/wreath  
 - It's free for any non-subcriber who has 7 Day Sreak
 
 About this writeup
 - Author: Lynden L.
 - github: github.com/ll1a4x
-
-About showing password hashes and clear-text password in this writeup
-- This is a fake CTF network and showing the password hashes and clear-text passwords are better for education purpose. In the real security operations, th password hashes and cleart-text passwords should be NEVER shown.
 
 ---
 
